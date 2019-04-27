@@ -1,0 +1,16 @@
+packages/
+bin/
+obj/
+bower_components/
+Images/
+node_modules/
+logs.txt
+errors.txt
+*.suo
+app.const.js
+server/content/compiled
+*.docx
+*.pdf
+*.jpg
+*.jpeg
+*.png
