@@ -1,3 +1,5 @@
+F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.csprojAssemblyReference.cache
+F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.csproj.CoreCompileInputs.cache
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\CrudWithAngular6-Contracts.dll.config
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\CrudWithAngular6-Contracts.dll
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\CrudWithAngular6-Contracts.pdb
@@ -58,8 +60,6 @@ F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\EntityFramework.xml
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\EntityFramework.SqlServer.xml
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.csprojAssemblyReference.cache
-F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.csproj.CoreCompileInputs.cache
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.csproj.CopyComplete
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.dll
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Contracts\obj\Debug\CrudWithAngular6-Contracts.pdb

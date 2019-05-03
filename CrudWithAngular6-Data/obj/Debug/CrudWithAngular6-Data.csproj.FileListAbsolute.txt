@@ -1,3 +1,6 @@
+F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6_Data.Migrations.CrudWithAngular6.resources
+F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csproj.GenerateResource.cache
+F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csproj.CoreCompileInputs.cache
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\CrudWithAngular6-Data.dll.config
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\CrudWithAngular6-Data.dll
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\CrudWithAngular6-Data.pdb
@@ -62,9 +65,6 @@ F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\EntityFramework.SqlServer.xml
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csprojAssemblyReference.cache
-F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6_Data.Migrations.CrudWithAngular6.resources
-F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csproj.GenerateResource.cache
-F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csproj.CoreCompileInputs.cache
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.csproj.CopyComplete
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.dll
 F:\GitHub\lates codes\Crud-With-Angular6-and-C-Sharp-\CrudWithAngular6-Data\obj\Debug\CrudWithAngular6-Data.pdb
