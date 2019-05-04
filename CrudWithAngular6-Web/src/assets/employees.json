@@ -1,0 +1,62 @@
+[
+    {
+        "Id":1, 
+        "Name":"Rana Mateen",
+        "IsPermanent": true, 
+        "Salary": 25000,
+        "PicUrl": "./Images/1.jpg", 
+        "DateAdded": "1-1-2018", 
+        "DateModified": "2-2-2018", 
+        "AddedBy": "Rana Mateen", 
+        "ModifiedBy": "Rana Mateen" 
+    },
+
+    {
+        "Id":2, 
+        "Name":"Shahzad Akhter",
+        "IsPermanent": true, 
+        "Salary": 35000,
+        "PicUrl": "./Images/2.jpg", 
+        "DateAdded": "1-1-2018", 
+        "DateModified": "2-2-2018", 
+        "AddedBy": "Rana Mateen", 
+        "ModifiedBy": "Rana Mateen" 
+    },
+    {
+        "Id":3, 
+        "Name":"Bilal Mehmood",
+        "IsPermanent": true, 
+        "Salary": 25000,
+        "PicUrl": "./Images/3.jpg", 
+        "DateAdded": "1-1-2018", 
+        "DateModified": "2-2-2018", 
+        "AddedBy": "Rana Mateen", 
+        "ModifiedBy": "Rana Mateen" 
+    },
+    {
+        "Id":4, 
+        "Name":"Noman Butt",
+        "IsPermanent": false, 
+        "Salary": 45000,
+        "PicUrl": "./Images/4.jpg", 
+        "DateAdded": "1-1-2018", 
+        "DateModified": "2-2-2018", 
+        "AddedBy": "Rana Mateen", 
+        "ModifiedBy": "Rana Mateen" 
+    },
+    {
+        "Id":5, 
+        "Name":"Sunny",
+        "IsPermanent": false, 
+        "Salary": 55000,
+        "PicUrl": "./Images/5.jpg", 
+        "DateAdded": "1-1-2018", 
+        "DateModified": "2-2-2018", 
+        "AddedBy": "Rana Mateen", 
+        "ModifiedBy": "Rana Mateen" 
+    }
+
+    
+]
+
+
