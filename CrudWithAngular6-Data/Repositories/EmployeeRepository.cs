@@ -84,11 +84,17 @@ namespace CrudWithAngular6_Data.Repositories
             bool result = true;
             try
             {
-                employee.DateModified = DateTime.UtcNow;
-                employee.ModifiedBy = "Mateen";
+                
                 var dbitem = _db.Employees.Find(employee.Id);
                 _db.Entry(dbitem).State = EntityState.Modified;
-                dbitem = employee;
+                dbitem.AddedBy = employee.AddedBy;
+                dbitem.DateAdded = employee.DateAdded;
+                dbitem.DateModified = DateTime.UtcNow;
+                dbitem.IsPermanent = employee.IsPermanent;
+                dbitem.ModifiedBy = "Mateen";
+                dbitem.Name = employee.Name;
+                dbitem.PicUrl = employee.PicUrl;
+                dbitem.Salary = employee.Salary;
                 _db.SaveChanges();
 
             }

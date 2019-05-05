@@ -1,0 +1,63 @@
+<h2>
+        {{title}}
+    </h2>
+    
+    
+    <div class="container">
+        <table class="table table-responsive">
+            
+            <tr>
+                <th>
+                    Name:
+                </th>
+                <td>
+                 <input type="text" class="form-control" [(ngModel)]="employee.Name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Salary
+                </th>
+                <td>
+                    <input type="number" class="form-control" [(ngModel)]="employee.Salary">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Employe Nature
+                </th>
+                <td>
+                    <select class="form-control" [(ngModel)]="employee.IsPermanent">
+                        <option name='Permanent' value="true">Permanent</option>
+                        <option name='Temporary' value="false">Temporary</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Date Added
+                </th>
+                <td>
+                   <input type="date" class="form-control" [(ngModel)]="employee.DateAdded">
+                </td>
+            </tr>
+            <tr>
+                <th>
+    
+                    Date Modified
+                </th>
+                <td>
+                        <input type="date" class="form-control" [(ngModel)]="employee.DateModified">
+                </td>
+            </tr>
+            <tr>
+                    <th>
+        
+                       <a [routerLink]="'/employees'" class="btn btn-default">Cancel</a>
+                    </th>
+                    <td>
+                        <button class="btn btn-success" (click)=save()>Save</button>
+                    </td>
+                </tr>
+        </table>
+    </div>

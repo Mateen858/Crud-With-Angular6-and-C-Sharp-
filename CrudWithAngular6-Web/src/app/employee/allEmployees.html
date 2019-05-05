@@ -1,4 +1,8 @@
+
 <div class="container">
+
+ <a class="btn btn-success" [routerLink]="['/newemployee']">New Employee</a>   
+
 <h2>Employees</h2>
 
 <table class="table table-responsive">
@@ -13,6 +17,7 @@
         <th>Modified By</th>
         <th>Date Added</th>
         <th>Date Modified</th>
+        <th></th>
 
     </tr>
 
@@ -21,16 +26,22 @@
 
 
 <tbody>
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Salary</th>
-        <th>Permanent/Temporary</th>
-        <th>Picture</th>
-        <th>Added By</th>
-        <th>Modified By</th>
-        <th>Date Added</th>
-        <th>Date Modified</th>
+    <tr *ngFor="let emp of allEmployees">
+        <td> {{emp.Id}} </td>
+        <td> <a [routerLink]="['/employeedetail/', emp.Id]"> {{emp.Name}}</a>  </td>
+        <td>{{emp.Salary}}</td>
+        <td>{{emp.IsPermanent ? 'Permanent' : 'Temporary'}}</td>
+        <td>
+            <img src="http://localhost:54174/{{emp.PicUrl}}" height="50" width="50">
+            </td>
+        <td>{{emp.AddedBy}}</td>
+        <td>{{emp.ModifiedBy}}</td>
+        <td>{{emp.DateAdded}}</td>
+        <td>{{emp.DateModified}}</td>
+        <td>
+            <a [routerLink]="['/editemployee/', emp.Id]"> <i class="fa fa-pencil"></i> Edit </a>
+            <a [routerLink]="['/deleteemployee/', emp.Id]">  <i class="fa fa-trash" ></i> Delete </a>
+        </td>
     </tr>
 </tbody>
 </table>

@@ -11,8 +11,8 @@ using System;
 
 namespace CrudWithAngular6_Api.Controllers
 {
-    [EnableCors("*", "*", "get,post", SupportsCredentials = true)]
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class EmployeeController : ApiController
     {
         private readonly IEmployeeRepository _repository;
@@ -33,18 +33,27 @@ namespace CrudWithAngular6_Api.Controllers
         {
             return _repository.GetAll().ToList();
         }
-        [Route("api/Employee/GetOne")]
+        [Route("api/Employee/GetOne/{id:int}")]
         public Employee GetOne (int id)
         {
             return _repository.GetAll().Where(e => e.Id == id).FirstOrDefault();
         }
-        [Route("api/Employee/Save")]
+        [HttpPut]
+       
+        //[Route("api/Employee/Save/{emp}")]
         public  bool Save (Employee emp)
         {
             bool result = _repository.Save(emp);
             return result;
         }
-        [Route("api/Employee/Delete")]
+        [HttpPost]
+        public bool SaveNew(Employee emp)
+        {
+            bool result = _repository.Save(emp);
+            return result;
+        }
+        [HttpDelete]
+        [Route("api/Employee/Delete/{id:int}")]
         public bool Delete (int id)
         {
             bool result = _repository.Delete(id);
