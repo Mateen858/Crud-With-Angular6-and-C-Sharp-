@@ -5,7 +5,21 @@
     
     <div class="container">
         <table class="table table-responsive">
-            
+            <tr>
+                <th>
+                    <label class="image-upload-container btn btn-bwm">
+                        <span>Select Image</span>
+                        <input 
+                               type="file"
+                               accept="image/*"
+                               (change)="showImage($event)">
+                      </label>
+                </th>
+                <td>
+                 <img src="{{selectedImage}}" height="100" width="100">
+                 <button (click)=saveImage() class="btn btn-primary">Save Image</button>
+                </td>
+            </tr>
             <tr>
                 <th>
                     Name:

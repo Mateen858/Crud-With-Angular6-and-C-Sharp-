@@ -7,7 +7,7 @@ using System.Web.Http.Cors;
 using CrudWithAngular6_Models.Classes;
 using System.Web;
 using System;
-
+using System.Net.Http;
 
 namespace CrudWithAngular6_Api.Controllers
 {
@@ -59,7 +59,7 @@ namespace CrudWithAngular6_Api.Controllers
             bool result = _repository.Delete(id);
             return result;
         }
-
+        [HttpPost]
         public bool SavePic (HttpPostedFileBase file)
         {
             bool result = true;

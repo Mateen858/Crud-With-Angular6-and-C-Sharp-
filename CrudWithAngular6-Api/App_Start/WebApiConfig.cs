@@ -27,9 +27,15 @@ namespace CrudWithAngular6_Api
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
+            config.Routes.MapHttpRoute(
+                name: "DefaultFileUpload",
+                routeTemplate : "api/{controller}/{action}/{file}", 
+                defaults: new {file = RouteParameter.Optional}
+                );
             config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(
-config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml"));
+            config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml"));
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/json"));
+            config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("multipart/form-data"));
         }
     }
 }
