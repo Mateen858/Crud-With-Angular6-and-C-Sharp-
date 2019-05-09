@@ -60,8 +60,26 @@ namespace CrudWithAngular6_Api.Controllers
             return result;
         }
         [HttpPost]
+        public HttpResponseMessage UploadJsonFile()
+        {
+            HttpResponseMessage response = new HttpResponseMessage();
+            var httpRequest = HttpContext.Current.Request;
+            if (httpRequest.Files.Count > 0)
+            {
+                foreach (string file in httpRequest.Files)
+                {
+                    var postedFile = httpRequest.Files[file];
+                    var filePath = HttpContext.Current.Server.MapPath("~/Attachments/" + postedFile.FileName);
+                    postedFile.SaveAs(filePath);
+                }
+            }
+            return response;
+        }
+
+        [HttpPost]
         public bool SavePic (HttpPostedFileBase file)
         {
+            return false;
             bool result = true;
             string relativePath = "/Attachments/";
             try

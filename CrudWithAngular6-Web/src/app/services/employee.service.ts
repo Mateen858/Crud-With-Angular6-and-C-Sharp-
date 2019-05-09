@@ -9,10 +9,19 @@ import { HttpHeaders } from '@angular/common/http';
 
 @Injectable()
 export class EmployeeService {
-     httpOptions = {
+    //  httpOptions = {
+    //     headers: new HttpHeaders({
+    //       'Content-Type':  'application/json',
+    //       'enctype' : 'multipart/form-data',
+         
+    //     })
+    //   };
+
+
+    httpOptions = {
         headers: new HttpHeaders({
-          'Content-Type':  'application/json',
-          'enctype' : 'multipart/form-data',
+          'Content-Type':  'json',
+          'Accept' : 'application/json',
          
         })
       };
@@ -48,10 +57,16 @@ export class EmployeeService {
         return this.http.delete<boolean>('http://localhost:54174/api/Employee/Delete/' + id).pipe(catchError(this.handleError));
     }
 
-    saveImage(file: File): Observable<boolean> {
-        console.log("file from service", file);
-        return this.http.post<boolean>('http://localhost:54174/api/Employee/SavePic/', file, this.httpOptions).pipe(catchError(this.handleError));
+    // saveImage(file: File): Observable<boolean> {
+    //     console.log("file from service", file);
+    //     return this.http.post<boolean>('http://localhost:54174/api/Employee/SavePic/', file, this.httpOptions).pipe(catchError(this.handleError));
+    // }
+
+    saveImage(formdata: FormData): Observable<boolean> {
+        console.log("file from service", formdata);
+        return this.http.post<boolean>('http://localhost:54174/api/Employee/UploadJsonFile/', formdata, this.httpOptions).pipe(catchError(this.handleError));
     }
+
     private handleError(error: any) {
 
 
