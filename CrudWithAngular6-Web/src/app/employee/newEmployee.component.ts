@@ -68,7 +68,7 @@ export class NewEmployee implements OnInit {
             let formData: FormData = new FormData();
             formData.append('uploadFile', file, file.name);
             console.log(formData);
-            this.employeeservice.saveImage(formData).subscribe(function(result){
+            this.employeeservice.saveImage(file).subscribe(function(result){
                 console.log("result from image upload", result);
                     });
         }
